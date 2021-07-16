@@ -1,0 +1,153 @@
+$color-white: #fff;
+$color-main: #1db7e1;
+$color-pink: #ff7a7a;
+
+body{
+  font-family: 'Roboto';
+  color: #353535;
+}
+
+header{
+  width: 100%;
+  background-color: $color-white;
+}
+
+.header-container{
+  &__first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 120px 10px 120px;
+  }
+  &__second{
+    &.is-sp{
+      display: none;
+    }
+  }
+  &__left{
+    display: flex;
+    align-items: center;
+  }
+  &__logo{
+    height: 75px;
+    margin-right: 10px;
+  }
+  &__appeal{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border: 1px solid $color-pink;
+    border-radius: 10px;
+    color: $color-pink;
+    i{
+      font-size: 28px;
+      margin-right: 10px;
+    }
+  }
+  &__appeal-text{
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  &__appeal-label{
+    font-size: 13px;
+    font-weight: 900;
+    padding: 2px 12px;
+    color: $color-white;
+    background-color: $color-pink;
+  }
+  &__call{
+    color: $color-main;
+    line-height: 10px;
+    i{
+      font-size: 32px;
+      margin-right: 12px;
+    }
+  }
+  &__time-zone{
+    text-align: right;
+    font-size: 15px;
+  }
+  &__phone-number{
+    font-size: 35px;
+    letter-spacing: 35 * 0.05px;
+    font-weight: bold;
+  }
+}
+
+.main-visual{
+  img{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px){
+  body{
+    min-width: 1048px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header-container{
+    &__first{
+      padding: 8px 50px 10px 50px;
+    }
+    &__logo{
+      height: 60px;
+    }
+    &__appeal{
+      &.is-pc{
+        display: none;
+      }
+    }
+    &__phone-number{
+      font-size: 28px;
+      letter-spacing: 28 * 0.05px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px){
+  .header-container{
+    &__first{
+      padding: 8px 10px 0 10px;
+    }
+    &__logo{
+      height: 40px;
+    }
+    &__call{
+      i{
+        font-size: 19px;
+        margin-right: 5px;
+      }
+    }
+    &__time-zone{
+      font-size: 11px;
+    }
+    &__phone-number{
+      font-size: 19px;
+      letter-spacing: 19 * 0.05px;
+    }
+    &__second{
+      &.is-sp{
+        display: inline-block;
+        margin: 0 0 10px 15px;
+      }
+      .header-container{
+        &__appeal{
+          padding: 5px 8px;
+          i{
+            font-size: 18px;
+          }
+        }
+        &__appeal-text{
+          font-size: 12px;
+        }
+        &__appeal-label{
+          font-size: 11px;
+          padding: 2px 8px;
+        }
+      }
+    }
+  }
+}
