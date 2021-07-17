@@ -1,10 +1,12 @@
 $color-white: #fff;
 $color-main: #1db7e1;
 $color-pink: #ff7a7a;
+$color-text: #353535;
 
 body{
+  width: 100%;
   font-family: 'Roboto';
-  color: #353535;
+  color: $color-text;
 }
 
 header{
@@ -76,33 +78,75 @@ header{
 }
 
 .main-visual{
+  position: relative;
+  width: 100%;
   img{
     width: 100%;
   }
-}
-
-@media screen and (min-width: 769px){
-  body{
-    min-width: 1048px;
+  &__up{
+    margin-bottom: 24px;
+  }
+  &__copy{
+    p{
+      font-size: 55px;
+      color: $color-main;
+    }
+    span{
+      font-weight: 900;
+      font-size: 66px;
+      color: $color-main;
+    }
+    span:last-child{
+      display: block;
+      color: $color-text;
+      font-size: 20px;
+      font-weight: normal;
+    }
+    .is-dot{
+      letter-spacing: -3px;
+      position: relative;
+    }
+    .is-dot::before{
+      content: "";
+      position: absolute;
+      top: -10px;
+      right: 0;
+      left: 0;
+      margin: auto;
+      width: 10px;
+      height: 10px;
+      background: $color-pink;
+      border-radius: 50%;
+    }
+  }
+  &__banners{
+    width: 45%;
+    display: flex;
+    img{
+      width: 33.3%;
+      min-width: 150px;
+      margin-right: 18px;
+    }
+  }
+  &__reference{
+    span{
+      font-size: 13px;
+    }
   }
 }
 
-@media screen and (max-width: 768px){
-  .header-container{
-    &__first{
-      padding: 8px 50px 10px 50px;
+@media screen and (min-width: 481px){
+  body{
+    min-width: 1200px;
+  }
+  .main-visual{
+    &__image-sp{
+      display: none;
     }
-    &__logo{
-      height: 60px;
-    }
-    &__appeal{
-      &.is-pc{
-        display: none;
-      }
-    }
-    &__phone-number{
-      font-size: 28px;
-      letter-spacing: 28 * 0.05px;
+    &__container{
+      position: absolute;
+      left: 12%;
+      top: 12%;
     }
   }
 }
@@ -114,6 +158,11 @@ header{
     }
     &__logo{
       height: 40px;
+    }
+    &__appeal{
+      &.is-pc{
+        display: none;
+      }
     }
     &__call{
       i{
@@ -147,6 +196,78 @@ header{
           font-size: 11px;
           padding: 2px 8px;
         }
+      }
+    }
+  }
+  .main-visual{
+    &__image{
+      display: none;
+    }
+    &__up{
+      width: 100%;
+      margin: 0 auto;
+      position: absolute;
+      top: 0;
+    }
+    &__down{
+      position: absolute;
+      bottom: 0;
+    }
+    &__copy{
+      text-align: center;
+      p{
+        font-size: 28px;
+      }
+      span{
+        font-size: 32px;
+      }
+      span:last-child{
+        padding: 0 20%;
+        font-size: 15px;
+      }
+      .is-dot{
+        letter-spacing: -3.5px;
+      }
+      .is-dot::before{
+        top: -7px;
+        width: 7px;
+        height: 7px;
+      }
+    }
+    &__banners{
+      width: 80%;
+      margin: 0 auto;
+      img{
+        min-width: 0;
+        margin-right: 10px;
+      }
+      img:last-child{
+        margin-right: 0;
+      }
+    }
+    &__reference{
+      width: 80%;
+      margin: 0 auto;
+      span{
+        display: block;
+        line-height: 19px;
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 340px){
+  .main-visual{
+    &__copy{
+      p{
+        font-size: 24px;
+      }
+      span{
+        font-size: 28px;
+      }
+      span:last-child{
+        font-size: 13px;
       }
     }
   }
