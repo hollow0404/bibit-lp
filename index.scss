@@ -135,6 +135,44 @@ header{
   }
 }
 
+.cv-point{
+  text-align: center;
+  width: 680px;
+  margin: 38px auto;
+  border: 1px dashed $color-main;
+  padding: 30px 60px;
+  border-radius: 25px;
+  &__text{
+    font-size: 23px;
+    font-weight: bold;
+    color: $color-main;
+    margin-bottom: 10px;
+  }
+  &__button{
+    a{
+      position: relative;
+      margin: 0 auto;
+      display: block;
+      width: 395px;
+      background: linear-gradient(to right, #ff637f, #ffa86b);;
+      color: $color-white;
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 75px;
+      border-radius: 37.5px;
+    }
+    a:hover{
+      opacity: .8;
+    }
+    img{
+      position: absolute;
+      width: 33px;
+      left: 20px;
+      top: 21px;
+    }
+  }
+}
+
 @media screen and (min-width: 481px){
   body{
     min-width: 1200px;
@@ -255,6 +293,24 @@ header{
       }
     }
   }
+  .cv-point{
+    width: 80%;
+    padding: 20px;
+    &__text{
+      font-size: 14px;
+    }
+    &__button{
+      a{
+        width: 100%;
+        font-size: 18px;
+        line-height: 54px;
+      }
+      img{
+        width: 24px;
+        top: 15px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 340px){
@@ -268,6 +324,21 @@ header{
       }
       span:last-child{
         font-size: 13px;
+      }
+    }
+  }
+  .cv-point{
+    &__text{
+      font-size: 12px;
+    }
+    &__button{
+      a{
+        font-size: 16px;
+        line-height: 50px;
+      }
+      img{
+        width: 20px;
+        top: 16px;
       }
     }
   }
