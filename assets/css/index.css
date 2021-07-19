@@ -248,6 +248,33 @@ header {
   font-family: ten-mincho, serif;
 }
 
+.sec-title {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
+.sec-title img {
+  width: 122px;
+  margin-bottom: 10px;
+}
+
+.sec-title__text {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: ten-mincho, serif;
+  color: #1db7e1;
+}
+
+.movie {
+  text-align: center;
+}
+
+.movie video {
+  width: 100%;
+  max-width: 600px;
+}
+
 @media screen and (min-width: 481px) {
   body {
     min-width: 1200px;
@@ -266,6 +293,18 @@ header {
 }
 
 @media screen and (max-width: 480px) {
+  .sec-title {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 20px 0;
+  }
+  .sec-title img {
+    width: 122px;
+    margin-bottom: 10px;
+  }
+  .sec-title__text {
+    font-size: 20px;
+  }
   .header-container__first {
     padding: 8px 10px 0 10px;
   }
