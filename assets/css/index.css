@@ -275,6 +275,15 @@ header {
   max-width: 600px;
 }
 
+.graph {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.graph img {
+  width: 80%;
+}
+
 @media screen and (min-width: 481px) {
   body {
     min-width: 1200px;
@@ -288,6 +297,9 @@ header {
     top: 12%;
   }
   .intro .is-sp {
+    display: none;
+  }
+  .graph .is-sp {
     display: none;
   }
 }
@@ -437,6 +449,15 @@ header {
   }
   .intro__body span {
     font-size: 18px;
+  }
+  .graph {
+    margin: 30px 0;
+  }
+  .graph .is-pc {
+    display: none;
+  }
+  .graph img {
+    width: 100%;
   }
 }
 

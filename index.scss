@@ -256,6 +256,14 @@ header{
   }
 }
 
+.graph{
+  margin-top: 50px;
+  text-align: center;
+  img{
+    width: 80%;
+  }
+}
+
 @media screen and (min-width: 481px){
   body{
     min-width: 1200px;
@@ -271,6 +279,11 @@ header{
     }
   }
   .intro{
+    .is-sp{
+      display: none;
+    }
+  }
+  .graph{
     .is-sp{
       display: none;
     }
@@ -441,6 +454,15 @@ header{
       span{
         font-size: 18px;
       }
+    }
+  }
+  .graph{
+    margin: 30px 0;
+    .is-pc{
+      display: none;
+    }
+    img{
+      width: 100%;
     }
   }
 }
