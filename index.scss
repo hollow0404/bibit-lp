@@ -173,6 +173,65 @@ header{
   }
 }
 
+.intro{
+  position: relative;
+  img{
+    width: 100%;
+  }
+  &__container{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+  &__title{
+    span{
+      font-size: 22px;
+      color: $color-main;
+      font-family: ten-mincho, serif;
+      font-weight: bold;
+      letter-spacing: 0.8px;
+    }
+    .is-bar{
+      padding-right: 118px;
+      position: relative;
+    }
+    .is-bar::after{
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+      background: $color-main;
+      width: 114px;
+      height: 1px;
+    }
+  }
+  &__body{
+    p{
+      font-size: 18px;
+    }
+    p:first-child{
+      margin: 10px 0;
+    }
+    p:nth-of-type(2){
+      margin: 8px 0;
+    }
+    p:last-child{
+      margin-top: 10px;
+    }
+    span{
+      font-weight: bold;
+      border-radius: 5px;
+      padding: 5px 15px;
+      background-color: $color-white;
+      font-size: 22px;
+      color: $color-pink;
+      font-family: ten-mincho, serif;
+    }
+  }
+}
+
 @media screen and (min-width: 481px){
   body{
     min-width: 1200px;
@@ -185,6 +244,11 @@ header{
       position: absolute;
       left: 12%;
       top: 12%;
+    }
+  }
+  .intro{
+    .is-sp{
+      display: none;
     }
   }
 }
@@ -311,6 +375,38 @@ header{
       }
     }
   }
+  .intro{
+    .is-pc{
+      display: none;
+    }
+    &__container{
+      width: 95%;
+      top: 63.5%;
+      left: 50%;
+    }
+    &__title{
+      span{
+        font-size: 18px;
+      }
+      span:last-child{
+        padding-right: 78px;
+      }
+      .is-bar.is-sp{
+        display: inline-block;
+      }
+      .is-bar::after{
+        width: 70px;
+      }
+    }
+    &__body{
+      p{
+        font-size: 15px;
+      }
+      span{
+        font-size: 18px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 340px){
@@ -339,6 +435,21 @@ header{
       img{
         width: 20px;
         top: 16px;
+      }
+    }
+  }
+  .intro{
+    &__title{
+      span{
+        font-size: 16px;
+      }
+    }
+    &__body{
+      p{
+        font-size: 13px;
+      }
+      span{
+        font-size: 16px;
       }
     }
   }
