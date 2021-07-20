@@ -7,6 +7,7 @@
   <?php include("intro.php"); ?>
   <?php include("graph.php"); ?>
   <?php include("strength.php"); ?>
+  <?php include("support.php"); ?>
 </main>
 
 <?php get_footer(); ?>
