@@ -11,6 +11,8 @@
   <?php include("cv.php"); ?>
   <?php include("greeting.php"); ?>
   <?php include("step.php"); ?>
+  <?php include("cv.php"); ?>
+  <?php include("plan.php"); ?>
 </main>
 
 <?php get_footer(); ?>
