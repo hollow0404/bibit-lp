@@ -4,6 +4,7 @@ $color-pink: #ff7a7a;
 $color-text: #353535;
 $color-bg: #ecfbff;
 $color-accent: #ffb443;
+$color-accent-light: #fffae9;
 
 body{
   width: 100%;
@@ -450,10 +451,80 @@ header{
   }
 }
 
+.step{
+  width: 1076px;
+  margin: 0 auto;
+}
+
+.c-accordion{
+  li{
+    border-radius: 12px;
+    background: $color-accent;
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+  &__title {
+    position: relative;/*+マークの位置基準とするためrelative指定*/
+    cursor: pointer;
+    color: $color-white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 20px;
+    transition: all .5s ease;
+    span{
+      font-size: 45px;
+      font-family: 'Alex Brush', cursive;
+      margin-right: 15px;
+    }
+    i{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 28px;
+      transition: all .5s ease;
+    }
+    &.is-close {
+      i{
+        transform: translateY(-50%) rotate(-180deg);
+      }
+    }
+  }
+  &__box {
+    display: none;/*はじめは非表示*/
+    background-color: $color-accent-light;
+    border-radius: 0 0 12px 12px;
+    padding: 32px 48px;
+  }
+  .is-flex{
+    display: flex !important;
+    align-items: center;
+  }
+  &__image{
+    margin-right: 30px;
+    img{
+      width: 100%;
+    }
+  }
+  &__text {
+    width: 38%;
+    font-size: 16px;
+    a{
+      font-size: 20px;
+      font-family: ten-mincho, serif;
+      color: $color-main;
+    }
+    a:hover{
+      opacity: .6;
+    }
+  }
+}
+
 @media screen and (min-width: 481px){
   body{
     min-width: 1200px;
   }
+
   .main-visual{
     &__image-sp{
       display: none;
@@ -464,16 +535,19 @@ header{
       top: 12%;
     }
   }
+
   .intro{
     .is-sp{
       display: none;
     }
   }
+
   .graph{
     .is-sp{
       display: none;
     }
   }
+
   .greeting{
     .is-sp{
       display: none;
@@ -491,6 +565,7 @@ header{
       }
     }
   }
+
   .header-container{
     &__first{
       padding: 8px 10px 0 10px;
@@ -538,6 +613,7 @@ header{
       }
     }
   }
+
   .main-visual{
     &__image{
       display: none;
@@ -594,6 +670,7 @@ header{
       }
     }
   }
+
   .cv-point{
     width: 80%;
     padding: 20px;
@@ -612,6 +689,7 @@ header{
       }
     }
   }
+
   .intro{
     .is-pc{
       display: none;
@@ -644,6 +722,7 @@ header{
       }
     }
   }
+
   .graph{
     margin: 30px 0;
     .is-pc{
@@ -653,6 +732,7 @@ header{
       width: 100%;
     }
   }
+
   .strength{
     width: 100%;
     &__data{
@@ -711,6 +791,7 @@ header{
       }
     }
   }
+
   .support{
     width: 100%;
     &__contents{
@@ -737,11 +818,50 @@ header{
       }
     }
   }
+
   .greeting{
     width: 95%;
     padding: 30px 0;
     .is-pc{
       display: none;
+    }
+  }
+
+  .step{
+    width: 90%;
+  }
+
+  .c-accordion{
+    li{
+      &:not(:last-child) {
+        margin-bottom: 12px;
+      }
+    }
+    &__title {
+      font-size: 16px;
+      span{
+        font-size: 32px;
+      }
+      i{
+        right: 14px;
+      }
+    }
+    &__box {
+      padding: 18px 24px;
+    }
+    .is-flex{
+      display: block !important;
+    }
+    &__image{
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    &__text {
+      width: 100%;
+      font-size: 15px;
+      a{
+        font-size: 18px;
+      }
     }
   }
 }

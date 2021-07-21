@@ -10,6 +10,7 @@
   <?php include("support.php"); ?>
   <?php include("cv.php"); ?>
   <?php include("greeting.php"); ?>
+  <?php include("step.php"); ?>
 </main>
 
 <?php get_footer(); ?>

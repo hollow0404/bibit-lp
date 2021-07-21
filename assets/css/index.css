@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   width: 100%;
   font-family: 'Roboto';
@@ -499,6 +500,85 @@ header {
   width: 100%;
 }
 
+.step {
+  width: 1076px;
+  margin: 0 auto;
+}
+
+.c-accordion li {
+  border-radius: 12px;
+  background: #ffb443;
+}
+
+.c-accordion li:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.c-accordion__title {
+  position: relative;
+  /*+マークの位置基準とするためrelative指定*/
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 20px;
+  transition: all .5s ease;
+}
+
+.c-accordion__title span {
+  font-size: 45px;
+  font-family: 'Alex Brush', cursive;
+  margin-right: 15px;
+}
+
+.c-accordion__title i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 28px;
+  transition: all .5s ease;
+}
+
+.c-accordion__title.is-close i {
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+.c-accordion__box {
+  display: none;
+  /*はじめは非表示*/
+  background-color: #fffae9;
+  border-radius: 0 0 12px 12px;
+  padding: 32px 48px;
+}
+
+.c-accordion .is-flex {
+  display: flex !important;
+  align-items: center;
+}
+
+.c-accordion__image {
+  margin-right: 30px;
+}
+
+.c-accordion__image img {
+  width: 100%;
+}
+
+.c-accordion__text {
+  width: 38%;
+  font-size: 16px;
+}
+
+.c-accordion__text a {
+  font-size: 20px;
+  font-family: ten-mincho, serif;
+  color: #1db7e1;
+}
+
+.c-accordion__text a:hover {
+  opacity: .6;
+}
+
 @media screen and (min-width: 481px) {
   body {
     min-width: 1200px;
@@ -758,6 +838,38 @@ header {
   }
   .greeting .is-pc {
     display: none;
+  }
+  .step {
+    width: 90%;
+  }
+  .c-accordion li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+  .c-accordion__title {
+    font-size: 16px;
+  }
+  .c-accordion__title span {
+    font-size: 32px;
+  }
+  .c-accordion__title i {
+    right: 14px;
+  }
+  .c-accordion__box {
+    padding: 18px 24px;
+  }
+  .c-accordion .is-flex {
+    display: block !important;
+  }
+  .c-accordion__image {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .c-accordion__text {
+    width: 100%;
+    font-size: 15px;
+  }
+  .c-accordion__text a {
+    font-size: 18px;
   }
 }
 
