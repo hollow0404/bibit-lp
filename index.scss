@@ -441,6 +441,15 @@ header{
   }
 }
 
+.greeting{
+  width: 1076px;
+  margin: 0 auto;
+  padding: 50px 0;
+  img{
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 481px){
   body{
     min-width: 1200px;
@@ -461,6 +470,11 @@ header{
     }
   }
   .graph{
+    .is-sp{
+      display: none;
+    }
+  }
+  .greeting{
     .is-sp{
       display: none;
     }
@@ -721,6 +735,13 @@ header{
         margin-right: 0;
         margin-bottom: 15px;
       }
+    }
+  }
+  .greeting{
+    width: 95%;
+    padding: 30px 0;
+    .is-pc{
+      display: none;
     }
   }
 }

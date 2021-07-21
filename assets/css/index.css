@@ -489,6 +489,16 @@ header {
   font-size: 15px;
 }
 
+.greeting {
+  width: 1076px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.greeting img {
+  width: 100%;
+}
+
 @media screen and (min-width: 481px) {
   body {
     min-width: 1200px;
@@ -505,6 +515,9 @@ header {
     display: none;
   }
   .graph .is-sp {
+    display: none;
+  }
+  .greeting .is-sp {
     display: none;
   }
 }
@@ -738,6 +751,13 @@ header {
     width: 85%;
     margin-right: 0;
     margin-bottom: 15px;
+  }
+  .greeting {
+    width: 95%;
+    padding: 30px 0;
+  }
+  .greeting .is-pc {
+    display: none;
   }
 }
 

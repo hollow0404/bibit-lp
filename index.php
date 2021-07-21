@@ -8,6 +8,8 @@
   <?php include("graph.php"); ?>
   <?php include("strength.php"); ?>
   <?php include("support.php"); ?>
+  <?php include("cv.php"); ?>
+  <?php include("greeting.php"); ?>
 </main>
 
 <?php get_footer(); ?>
