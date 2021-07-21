@@ -582,6 +582,7 @@ header {
 .plan {
   width: 1076px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .plan__title {
@@ -718,6 +719,48 @@ header {
   color: #dd0000;
 }
 
+.review {
+  width: 1076px;
+  margin: 0 auto;
+}
+
+.c-card-review-lg__blocks {
+  display: flex;
+  justify-content: center;
+}
+
+.c-card-review-lg__block {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 50px 80px;
+  background: #fffae9;
+  border-radius: 20px;
+  height: 380px;
+}
+
+.c-card-review-lg__content {
+  margin-right: 25px;
+  width: 60%;
+}
+
+.c-card-review-lg__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.c-card-review-lg__text {
+  font-size: 15px;
+}
+
+.c-card-review-lg__image {
+  width: 40%;
+}
+
+.c-card-review-lg__image img {
+  width: 100%;
+}
+
 @media screen and (min-width: 481px) {
   body {
     min-width: 1200px;
@@ -741,6 +784,9 @@ header {
   }
   .plan .is-sp {
     display: none;
+  }
+  .c-card-review-lg__block {
+    flex-direction: row-reverse;
   }
 }
 
@@ -1015,6 +1061,7 @@ header {
   }
   .plan {
     width: 90%;
+    padding-bottom: 30px;
   }
   .plan__discount li {
     display: block;
@@ -1061,6 +1108,29 @@ header {
   .c-table-price .js-is-hidden {
     display: none;
     visibility: hidden;
+  }
+  .review {
+    width: 90%;
+  }
+  .c-card-review-lg__block {
+    display: block;
+    padding: 30px;
+    height: 700px;
+  }
+  .c-card-review-lg__content {
+    width: 100%;
+  }
+  .c-card-review-lg__title {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0;
+  }
+  .c-card-review-lg__text {
+    font-size: 14px;
+  }
+  .c-card-review-lg__image {
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
 

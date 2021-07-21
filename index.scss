@@ -527,6 +527,7 @@ header{
 .plan{
   width: 1076px;
   margin: 0 auto;
+  padding-bottom: 50px;
   &__title{
     font-weight: bold;
     padding: 10px 0;
@@ -640,6 +641,43 @@ header{
   }
 }
 
+.review{
+  width: 1076px;
+  margin: 0 auto;
+}
+.c-card-review-lg {
+  &__blocks {
+    display: flex;
+    justify-content: center;
+  }
+  &__block {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 50px 80px;
+    background: $color-accent-light;
+    border-radius: 20px;
+    height: 380px;
+  }
+  &__content {
+    margin-right: 25px;
+    width: 60%;
+  }
+  &__title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  &__text {
+    font-size: 15px;
+  }
+  &__image {
+    width: 40%;
+    img{
+      width: 100%;
+    }
+  }
+}
+
 @media screen and (min-width: 481px){
   body{
     min-width: 1200px;
@@ -676,6 +714,11 @@ header{
   .plan{
     .is-sp{
       display: none;
+    }
+  }
+  .c-card-review-lg {
+    &__block {
+      flex-direction: row-reverse; 
     }
   }
 }
@@ -991,6 +1034,7 @@ header{
   }
   .plan{
     width: 90%;
+    padding-bottom: 30px;
     &__discount{
       li{
         display: block;
@@ -1042,6 +1086,31 @@ header{
     .js-is-hidden {
       display: none;
       visibility: hidden;
+    }
+  }
+  .review{
+    width: 90%;
+  }
+  .c-card-review-lg {
+    &__block {
+      display: block;
+      padding: 30px;
+      height: 700px;
+    }
+    &__content {
+      width: 100%;
+    }
+    &__title {
+      font-size: 20px;
+      text-align: center;
+      margin: 5px 0;
+    }
+    &__text{
+      font-size: 14px;
+    }
+    &__image {
+      width: 100%;
+      margin-bottom: 10px;
     }
   }
 }

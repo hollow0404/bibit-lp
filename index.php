@@ -13,6 +13,7 @@
   <?php include("step.php"); ?>
   <?php include("cv.php"); ?>
   <?php include("plan.php"); ?>
+  <?php include("review.php"); ?>
 </main>
 
 <?php get_footer(); ?>
