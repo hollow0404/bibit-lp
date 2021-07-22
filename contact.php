@@ -9,7 +9,8 @@
     <div class="contact__text">
       通常2営業日以内に専任パートナーより、ご希望の連絡方法にて返信させていただき、日程調整を行います。<br>相談時の強引な勧誘は一切ございませんのでご安心ください。<br>※その他ご質問・ご要望も承ります。
     </div>
-    <form class="contact__form">
+    [contact-form-7 id="9" title="コンタクトフォーム 1"]
+    <!-- <form class="contact__form">
       <div class="contact__block">
         <p>
           <label>お名前（実名を避けたい方はニックネーム等でも構いません）</label>
@@ -138,6 +139,6 @@
         <textarea class="contact__textarea-box" rows="6"></textarea>
       </div>
       <input class="contact__submit" type="submit" value="無料相談を申込む">
-    </form>
+    </form> -->
   </div>
 </section>
