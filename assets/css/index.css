@@ -1277,6 +1277,7 @@ header {
   }
   .contact__text {
     padding: 0 30px;
+    margin-bottom: 30px;
   }
   .contact__form {
     width: 90%;
