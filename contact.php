@@ -9,7 +9,7 @@
     <div class="contact__text">
       通常2営業日以内に専任パートナーより、ご希望の連絡方法にて返信させていただき、日程調整を行います。<br>相談時の強引な勧誘は一切ございませんのでご安心ください。<br>※その他ご質問・ご要望も承ります。
     </div>
-    [contact-form-7 id="9" title="コンタクトフォーム 1"]
+    <?php echo do_shortcode('[contact-form-7 id="9" title="コンタクトフォーム 1"]'); ?>
     <!-- <form class="contact__form">
       <div class="contact__block">
         <p>
