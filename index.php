@@ -14,6 +14,7 @@
   <?php include("cv.php"); ?>
   <?php include("plan.php"); ?>
   <?php include("review.php"); ?>
+  <?php include("contact.php"); ?>
 </main>
 
 <?php get_footer(); ?>

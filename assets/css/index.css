@@ -9,6 +9,14 @@ section {
   width: 100%;
 }
 
+section.is-color-bg {
+  background-color: #ecfbff;
+}
+
+section.is-contact {
+  padding: 50px 0;
+}
+
 .sec-title {
   width: 100%;
   text-align: center;
@@ -26,10 +34,6 @@ section {
   font-family: ten-mincho, serif;
   color: #1db7e1;
   letter-spacing: 5px;
-}
-
-.is-color-bg {
-  background-color: #ecfbff;
 }
 
 header {
@@ -721,7 +725,7 @@ header {
 
 .review {
   width: 1076px;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
 }
 
 .c-card-review-lg__blocks {
@@ -759,6 +763,97 @@ header {
 
 .c-card-review-lg__image img {
   width: 100%;
+}
+
+.contact {
+  width: 1076px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.contact__text {
+  font-size: 15px;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact__form {
+  width: 697px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.contact__block {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact__block.is-harf {
+  width: 50%;
+}
+
+.contact__block.is-radio {
+  display: flex;
+}
+
+.contact__text-box, .contact__select-box, .contact__radio-box, .contact__textarea-box {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  line-height: 40px;
+  padding: 0 8px;
+  border-radius: 5px;
+  border: 1px solid #aaaaaa;
+}
+
+.contact select {
+  height: 42px;
+}
+
+.contact__container {
+  display: flex;
+}
+
+.contact__radio-box {
+  width: 30%;
+}
+
+.contact__radio-box input {
+  margin: 0;
+  width: 50px;
+  height: 20px;
+}
+
+.contact__radio-box:first-child {
+  margin-right: 10px;
+}
+
+.contact__textarea-box {
+  padding: 8px;
+  height: 100%;
+  line-height: 22.5px;
+  font-family: 'Roboto' !important;
+}
+
+.contact__submit {
+  margin: 0 auto;
+  display: block;
+  width: 308px;
+  background: linear-gradient(to right, #ff637f, #ffa86b);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 58px;
+  border: none;
+  border-radius: 37.5px;
+}
+
+.contact__submit:hover {
+  cursor: pointer;
+  opacity: .8;
 }
 
 @media screen and (min-width: 481px) {
