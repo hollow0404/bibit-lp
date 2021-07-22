@@ -26,7 +26,7 @@
           </div>
           <div class="strength__td">
             <span>44,154</span>
-            件
+            件/月
           </div>
         </li>
         <li>

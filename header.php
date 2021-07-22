@@ -30,7 +30,7 @@
           </div>
           <div class="header-container__right">
             <div class="header-container__time-zone">         
-              受付時間 10:00 ~ 19:00
+              受付時間 10:00 ~ 22:00
             </div>
             <div class="header-container__call">
               <i class="fas fa-phone"></i>
