@@ -786,6 +786,7 @@ header {
   margin: 0 auto;
   background-color: #fff;
   border-radius: 30px;
+  padding-bottom: 30px;
 }
 
 .contact__text {
