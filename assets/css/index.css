@@ -827,6 +827,21 @@ header {
   display: flex;
 }
 
+.contact__container label {
+  width: 30%;
+}
+
+.contact__container label input {
+  font-size: 15px;
+  line-height: 40px;
+  padding: 0 8px;
+  border-radius: 5px;
+  border: 1px solid #aaaaaa;
+  margin: 0;
+  width: 50px;
+  height: 20px;
+}
+
 .contact__radio-box {
   width: 30%;
 }
