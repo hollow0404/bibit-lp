@@ -289,6 +289,11 @@ header {
   max-width: 600px;
 }
 
+.movie p {
+  color: #1db7e1;
+  font-family: ten-mincho, serif;
+}
+
 .graph {
   margin-top: 50px;
   text-align: center;
@@ -856,6 +861,37 @@ header {
   opacity: .8;
 }
 
+.footer-container {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.footer-container img {
+  width: 100%;
+}
+
+.footer-container__contents {
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.footer-container__address {
+  font-size: 20px;
+  font-family: ten-mincho, serif;
+}
+
+.footer-container__number {
+  font-size: 38px;
+  font-family: ten-mincho, serif;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 481px) {
   body {
     min-width: 1200px;
@@ -882,6 +918,9 @@ header {
   }
   .c-card-review-lg__block {
     flex-direction: row-reverse;
+  }
+  .footer-container .is-sp {
+    display: none;
   }
 }
 
@@ -1227,6 +1266,43 @@ header {
     width: 100%;
     margin-bottom: 10px;
   }
+  .contact {
+    width: 90%;
+    border-radius: 20px;
+  }
+  .contact__text {
+    padding: 0 30px;
+  }
+  .contact__form {
+    width: 90%;
+  }
+  .contact__block.is-harf {
+    width: 60%;
+  }
+  .contact__block label {
+    font-size: 15px;
+  }
+  .contact__radio-box {
+    width: 50%;
+  }
+  .contact__radio-box input {
+    width: 30px;
+  }
+  .contact__submit {
+    width: 258px;
+    font-size: 16px;
+    line-height: 54px;
+  }
+  .footer-container .is-pc {
+    display: none;
+  }
+  .footer-container__address {
+    font-size: 16px;
+  }
+  .footer-container__number {
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
 }
 
 @media screen and (max-width: 340px) {
@@ -1308,6 +1384,24 @@ header {
   }
   .c-table-price tbody td span {
     font-size: 18px;
+  }
+  .contact__text-box, .contact__select-box, .contact__radio-box, .contact__textarea-box {
+    font-size: 14px;
+  }
+  .contact__block label {
+    font-size: 14px;
+  }
+  .contact__submit {
+    width: 248px;
+    font-size: 15px;
+    line-height: 50px;
+  }
+  .footer-container__address {
+    font-size: 14px;
+  }
+  .footer-container__number {
+    font-size: 20px;
+    letter-spacing: 3px;
   }
 }
 /*# sourceMappingURL=index.css.map */
