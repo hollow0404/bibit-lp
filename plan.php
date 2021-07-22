@@ -197,5 +197,22 @@
         </div>
       </li>
     </ul>
+    <div class="sec-title">
+      <div class="sec-title__text">
+        キャンペーン
+      </div>
+    </div>
+    <ul class="plan__discount">
+      <li>
+        <div class="plan__discount-title is-campaign">
+          全額返金制度
+        </div>
+        <div class="plan__discount-body">
+          入会後お見合いが成立しなければ
+          <strong>全額返金</strong>
+        </div>
+      </li>
+    </ul>
+    </div>
   </div>
 </section>

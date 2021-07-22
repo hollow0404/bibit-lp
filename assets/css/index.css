@@ -631,6 +631,10 @@ header {
   width: 40%;
 }
 
+.plan__discount-title.is-campaign {
+  background-color: #ffb443;
+}
+
 .plan__discount-body {
   font-size: 18px;
   padding: 12px 0;
