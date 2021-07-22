@@ -700,6 +700,7 @@ header{
   background-color: $color-white;
   border-radius: 30px;
   padding-bottom: 30px;
+  margin-bottom: 30px;
   &__text{
     font-size: 15px;
     text-align: center;
@@ -1247,7 +1248,6 @@ header{
     border-radius: 20px;
     &__text{
       padding: 0 30px;
-      margin-bottom: 30px;
     }
     &__form{
       width: 90%;

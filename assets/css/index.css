@@ -787,6 +787,7 @@ header {
   background-color: #fff;
   border-radius: 30px;
   padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .contact__text {
@@ -1286,7 +1287,6 @@ header {
   }
   .contact__text {
     padding: 0 30px;
-    margin-bottom: 30px;
   }
   .contact__form {
     width: 90%;
