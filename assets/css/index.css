@@ -1280,6 +1280,7 @@ header {
   }
   .contact__form {
     width: 90%;
+    padding: 0;
   }
   .contact__block.is-harf {
     width: 60%;
