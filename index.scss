@@ -729,19 +729,6 @@ header{
   }
   &__container{
     display: flex;
-    label{
-      width: 30%;
-      font-size: 15px;
-      line-height: 40px;
-      padding: 0 8px;
-      border-radius: 5px;
-      border: 1px solid $color-gray-second;
-      input{
-        margin: 0;
-        width: 50px;
-        height: 20px;
-      }
-    }
   }
   &__radio-box{
     width: 30%;
