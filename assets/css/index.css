@@ -830,6 +830,10 @@ header {
   height: 42px;
 }
 
+.contact label span {
+  color: #dd0000;
+}
+
 .contact__container {
   display: flex;
 }

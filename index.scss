@@ -734,6 +734,11 @@ header{
   select{
     height: 42px;
   }
+  label{
+    span{
+      color: $color-red;
+    }
+  }
   &__container{
     display: flex;
   }
