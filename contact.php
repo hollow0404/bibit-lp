@@ -1,5 +1,5 @@
 <section class="is-color-bg is-contact">
-  <div class="contact">
+  <div class="contact" id="contact">
     <div class="sec-title">
       <img src="<?php echo get_template_directory_uri(); ?>/img/frame.png" alt="フレーム" />
       <div class="sec-title__text">
