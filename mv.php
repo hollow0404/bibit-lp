@@ -5,7 +5,7 @@
     <div class="main-visual__container">
       <div class="main-visual__up">
         <div class="main-visual__copy">
-          <p>始めよう、</p>
+          <p>始めよ、</p>
           <span class="is-dot">一</span>
           <span class="is-dot">人</span>
           <span class="is-dot">で</span>
