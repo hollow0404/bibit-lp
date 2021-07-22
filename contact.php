@@ -3,7 +3,7 @@
     <div class="sec-title">
       <img src="<?php echo get_template_directory_uri(); ?>/img/frame.png" alt="フレーム" />
       <div class="sec-title__text">
-        無料相談のお申し込み
+        無料相談のお申込み
       </div>
     </div>
     <div class="contact__text">
