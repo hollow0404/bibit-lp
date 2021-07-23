@@ -64,7 +64,7 @@
         <div class="header-container__second is-sp">
           <div class="header-container__appeal">
             <i class="fas fa-car"></i>
-            <div class="header-container__appeal-text">お近くへ出張相談いたします</div>
+            <div class="header-container__appeal-text">関西一円出張相談いたします</div>
             <div class="header-container__appeal-label">無料</div>
           </div>
         </div>
