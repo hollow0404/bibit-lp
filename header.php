@@ -45,7 +45,7 @@
             <img class="header-container__logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="ロゴ画像">
             <div class="header-container__appeal is-pc">
               <i class="fas fa-car"></i>
-              <div class="header-container__appeal-text">お近くへ出張相談いたします</div>
+              <div class="header-container__appeal-text">関西一円出張相談いたします</div>
               <div class="header-container__appeal-label">無料</div>
             </div>
           </div>
