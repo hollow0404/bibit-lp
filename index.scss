@@ -1230,7 +1230,7 @@ header{
     &__block {
       display: block;
       padding: 30px;
-      height: 700px;
+      height: 750px;
     }
     &__content {
       width: 100%;
@@ -1397,6 +1397,14 @@ header{
           font-size: 18px;
         }
       }
+    }
+  }
+  .c-card-review-lg {
+    &__block{
+      height: 700px;
+    }
+    &__text{
+      font-size: 13px;
     }
   }
   .contact{

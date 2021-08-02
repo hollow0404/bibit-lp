@@ -1268,7 +1268,7 @@ header {
   .c-card-review-lg__block {
     display: block;
     padding: 30px;
-    height: 700px;
+    height: 750px;
   }
   .c-card-review-lg__content {
     width: 100%;
@@ -1403,6 +1403,12 @@ header {
   }
   .c-table-price tbody td span {
     font-size: 18px;
+  }
+  .c-card-review-lg__block {
+    height: 700px;
+  }
+  .c-card-review-lg__text {
+    font-size: 13px;
   }
   .contact__text-box, .contact__select-box, .contact__radio-box, .contact__textarea-box {
     font-size: 14px;
