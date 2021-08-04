@@ -205,7 +205,7 @@
     <ul class="plan__discount">
       <li>
         <div class="plan__discount-title is-campaign">
-          全額返金制度
+          お見合い成立保証
         </div>
         <div class="plan__discount-body">
           入会後お見合いが成立しなければ
