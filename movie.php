@@ -1,4 +1,4 @@
-<section>
+<section class="is-movie-section">
   <div class="sec-title">
     <img src="<?php echo get_template_directory_uri(); ?>/img/frame.png" alt="フレーム" />
     <div class="sec-title__text">
@@ -6,7 +6,7 @@
     </div>
   </div>
   <div class="movie">
-    <video src="http://lp.bo-bibit.com/wp-content/uploads/2021/07/pr-movie.mp4" controls controlsList="nodownload" poster="<?php echo get_template_directory_uri(); ?>/img/thumbnail.png"></video>
+    <iframe src="https://www.youtube.com/embed/OsyXdTa8eGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p>※撮影：面談オフィス</p>
   </div>
 </section>
