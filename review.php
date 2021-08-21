@@ -5,7 +5,7 @@
       会員様の声
     </div>
   </div>
-  <div class="review">
+  <div class="review" id="review">
     <div class='c-card-review-lg'>
       <div class='c-card-review-lg__blocks owl-carousel owl-theme'>
         <div class='c-card-review-lg__block' >

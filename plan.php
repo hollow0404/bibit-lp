@@ -23,7 +23,7 @@
   });
 </script>
 
-<section class="is-color-bg">
+<section class="is-color-bg" id="plan">
   <div class="sec-title">
     <img src="<?php echo get_template_directory_uri(); ?>/img/frame.png" alt="フレーム" />
     <div class="sec-title__text">
