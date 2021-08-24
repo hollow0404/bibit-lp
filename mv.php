@@ -6,13 +6,13 @@
       <div class="main-visual__up">
         <div class="main-visual__copy">
           <p>始めよう、</p>
-          <span class="is-dot">一</span>
-          <span class="is-dot">人</span>
-          <span class="is-dot">で</span>
-          <span class="is-dot">悩</span>
-          <span class="is-dot">ま</span>
-          <span class="is-dot">な</span>
-          <span class="is-dot">い</span>
+          <span class="is-dot">結</span>
+          <span class="is-dot">果</span>
+          <span class="is-dot">に</span>
+          <span class="is-dot">こ</span>
+          <span class="is-dot">だ</span>
+          <span class="is-dot">わ</span>
+          <span class="is-dot">る</span>
           <span>婚活</span>
           <span>専任パートナーが、あなたの交際を徹底サポートします</span>
         </div>
