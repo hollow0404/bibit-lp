@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
 
-    <title>一人で悩まない婚活 | BiBit</title>
+    <title>結果にこだわる婚活 | BiBit</title>
     <?php wp_head(); ?>
   </head>
   <body>
