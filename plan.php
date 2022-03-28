@@ -121,7 +121,7 @@
             <span>無制限</span>
           </td>
         </tr>
-        <tr>
+        <!-- <tr>
           <th>直紹介人数</th>
           <td class='p-1'>
             <span>1名 / 月</span>
@@ -129,7 +129,7 @@
           <td class='p-2 js-is-hidden'>
             <span>3名 / 月</span>
           </td>
-        </tr>
+        </tr> -->
         <tr>
           <th>面談数(上限)</th>
           <td class='p-1'>

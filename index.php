@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <main>
+  <?php include("sns.php"); ?>
   <?php include("mv.php"); ?>
   <?php include("movie.php"); ?>
   <?php include("cv.php"); ?>

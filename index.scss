@@ -121,6 +121,36 @@ header{
   }
 }
 
+.sns{
+  border: 1px solid #1877f2;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  background-color: #1877f2;
+  z-index: 999;
+  transition: .3s;
+  &:hover{
+    background-color: $color-white;
+    cursor: pointer;
+  }
+  &:hover i{
+    color: #1877f2;
+  }
+  i{
+    color: $color-white;
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+}
+
 .main-visual{
   position: relative;
   width: 100%;
