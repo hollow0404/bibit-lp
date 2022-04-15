@@ -24,8 +24,9 @@
           <img src="<?php echo get_template_directory_uri(); ?>/img/ai_matching.png" alt="AIマッチング">
         </div>
         <div class="main-visual__reference">
-          <span>当社は、登録会員数 No.1の日本結婚相談所連盟（※）の加盟相談所です。
-          <br>（※2019年1月 日本マーケティング機構調べ）</span>
+          <span>当社は、登録会員数・成婚数 No.1の日本結婚相談所連盟（※）の加盟相談所です。
+          <br>※日本マーケティングリサーチ機構2022年1月調べ_IBJ日本結婚相談所連盟登録会員に関する調査<br>
+（成婚数：2021年実績、会員数：2021年12月末時点、大手結婚相談所・連盟を対象）</span>
         </div>
       </div>
     </div>

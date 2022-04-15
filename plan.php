@@ -159,5 +159,46 @@
         </tr>
       </tbody>
     </table>
+    <div class="sec-title">
+      <div class="sec-title__text">
+        GW・新婚活スタートキャンペーン
+      </div>
+    </div>
+    <ul class="plan__discount">
+      <li>
+        <div class="plan__discount-title is-campaign">
+          特典内容
+        </div>
+        <div class="plan__discount-body">
+          入会金
+          <strong>¥10,000 OFF</strong>
+          (税抜)
+        </div>
+      </li>
+    </ul>
+    <div class="sec-title">
+      <div class="sec-title__text">
+        キャンペーン期間
+      </div>
+    </div>
+    <ul class="plan__discount">
+      <li>
+        <div class="plan__discount-title">
+          第１弾
+        </div>
+        <div class="plan__discount-body is-normal">
+          4/26(火)〜5/10(火)
+        </div>
+      </li>
+      <li>
+        <div class="plan__discount-title">
+          第２弾
+        </div>
+        <div class="plan__discount-body is-normal">
+          5/11(水)〜5/31(火)
+        </div>
+      </li>
+    </ul>
+    </div>
   </div>
 </section>

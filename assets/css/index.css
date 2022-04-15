@@ -696,6 +696,10 @@ header {
   width: 60%;
 }
 
+.plan__discount .is-normal{
+  padding: 22px 0;
+}
+
 .plan__discount-body strong {
   font-size: 30px;
   color: #dd0000;
