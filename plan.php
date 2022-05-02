@@ -159,7 +159,7 @@
         </tr>
       </tbody>
     </table>
-    <div class="sec-title">
+    <div class="sec-title" id="campaign">
       <div class="sec-title__text">
         GW・新婚活スタートキャンペーン
       </div>

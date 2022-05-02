@@ -220,6 +220,15 @@ header {
   font-size: 13px;
 }
 
+.banner {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.banner img {
+  max-width: 90%;
+}
+
 .cv-point {
   text-align: center;
   width: 680px;
@@ -694,10 +703,6 @@ header {
   background-color: #fff;
   text-align: center;
   width: 60%;
-}
-
-.plan__discount .is-normal{
-  padding: 22px 0;
 }
 
 .plan__discount-body strong {
