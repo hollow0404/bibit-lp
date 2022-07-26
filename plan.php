@@ -161,7 +161,7 @@
     </table>
     <div class="sec-title" id="campaign">
       <div class="sec-title__text">
-        GW・新婚活スタートキャンペーン
+        会員数8万人突破キャンペーン
       </div>
     </div>
     <ul class="plan__discount">
@@ -187,17 +187,17 @@
           第１弾
         </div>
         <div class="plan__discount-body is-normal">
-          4/26(火)〜5/10(火)
+          〜8/30(火)
         </div>
       </li>
-      <li>
+      <!-- <li>
         <div class="plan__discount-title">
           第２弾
         </div>
         <div class="plan__discount-body is-normal">
           5/11(水)〜5/31(火)
         </div>
-      </li>
+      </li> -->
     </ul>
     </div>
   </div>
