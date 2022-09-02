@@ -3,7 +3,7 @@
 <main>
   <?php include("sns.php"); ?>
   <?php include("mv.php"); ?>
-  <?php include("banner.php"); ?>
+  <!-- <?php include("banner.php"); ?> -->
   <?php include("movie.php"); ?>
   <?php include("cv.php"); ?>
   <?php include("intro.php"); ?>
