@@ -159,7 +159,7 @@
         </tr>
       </tbody>
     </table>
-    <div class="sec-title" id="campaign">
+    <!-- <div class="sec-title" id="campaign">
       <div class="sec-title__text">
         会員数8万人突破キャンペーン
       </div>
@@ -190,15 +190,15 @@
           〜8/30(火)
         </div>
       </li>
-      <!-- <li>
+      <li>
         <div class="plan__discount-title">
           第２弾
         </div>
         <div class="plan__discount-body is-normal">
           5/11(水)〜5/31(火)
         </div>
-      </li> -->
-    </ul>
+      </li>
+    </ul> -->
     </div>
   </div>
 </section>
