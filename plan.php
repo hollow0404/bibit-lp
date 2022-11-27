@@ -57,7 +57,7 @@
             円(税込)
           </td>
           <td class='p-2 js-is-hidden'>
-            <strong>198,000</strong>
+            <strong>268,000</strong>
             円(税込)
           </td>
         </tr>
@@ -68,7 +68,7 @@
             円(税込)
           </td>
           <td class='p-2 js-is-hidden'>
-            <strong>14,300</strong>
+            <strong>9,800</strong>
             円(税込)
           </td>
         </tr>
@@ -97,10 +97,10 @@
         <tr>
           <th>お見合い申込可能件数</th>
           <td class='p-1'>
-            <span>50件 / 月</span>
+            <span>30件 / 月</span>
           </td>
           <td class='p-2 js-is-hidden'>
-            <span>200件 / 月</span>
+            <span>40件 / 月</span>
           </td>
         </tr>
         <tr>
@@ -153,8 +153,8 @@
           <td class='p-1'>
             <span>88,000円</span>
           </td>
-          <td class='p-2 js-is-hidden'>
-            <span>88,000円</span>
+          <td class='p-2 js-is-hidden is-red'>
+            <span>無料</span>
           </td>
         </tr>
       </tbody>
