@@ -64,11 +64,11 @@
         <tr>
           <th>月額費用</th>
           <td class='p-1'>
-            <strong>9,800</strong>
+            <strong>10,000</strong>
             円(税込)
           </td>
           <td class='p-2 js-is-hidden'>
-            <strong>9,800</strong>
+            <strong>10,000</strong>
             円(税込)
           </td>
         </tr>
