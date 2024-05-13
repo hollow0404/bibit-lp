@@ -154,7 +154,7 @@
             <span>88,000</span>
             円(税込)
           </td>
-          <td class='p-2 js-is-hidden is-red'>
+          <td class='p-2 js-is-hidden'>
             <span>88,000</span>
             円(税込)
           </td>
