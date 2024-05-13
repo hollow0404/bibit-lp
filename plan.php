@@ -151,10 +151,12 @@
         <tr>
           <th>成婚料</th>
           <td class='p-1'>
-            <span>88,000円(税込)</span>
+            <span>88,000</span>
+            円(税込)
           </td>
           <td class='p-2 js-is-hidden is-red'>
-            <span>88,000円(税込)</span>
+            <span>88,000</span>
+            円(税込)
           </td>
         </tr>
       </tbody>
