@@ -68,7 +68,7 @@
             円(税込)
           </td>
           <td class='p-2 js-is-hidden'>
-            <strong>10,000</strong>
+            <strong>15,000</strong>
             円(税込)
           </td>
         </tr>
@@ -136,7 +136,7 @@
             <span>1回 / 月</span>
           </td>
           <td class='p-2 js-is-hidden'>
-            <span>3回 / 月</span>
+            <span>2回 / 月</span>
           </td>
         </tr>
         <tr>
@@ -151,10 +151,10 @@
         <tr>
           <th>成婚料</th>
           <td class='p-1'>
-            <span>88,000円</span>
+            <span>88,000円(税込)</span>
           </td>
           <td class='p-2 js-is-hidden is-red'>
-            <span>無料</span>
+            <span>88,000円(税込)</span>
           </td>
         </tr>
       </tbody>
