@@ -16,7 +16,7 @@
             登録会員数
           </div>
           <div class="strength__td">
-            <span>81,276</span>
+            <span>91,000</span>
             人
           </div>
         </li>
@@ -25,7 +25,7 @@
             お見合い成立件数
           </div>
           <div class="strength__td">
-            <span>44,154</span>
+            <span>67,204</span>
             件/月
           </div>
         </li>
@@ -48,7 +48,7 @@
           業界
           <strong>No.1</strong>
           を誇る
-          <span>約80,000人</span>
+          <span>約90,000人</span>
           の会員データベースから気になるお相手にアプローチできます。
         </li>
         <li>
