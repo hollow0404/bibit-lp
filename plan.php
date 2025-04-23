@@ -53,11 +53,11 @@
         <tr>
           <th>入会金</th>
           <td class='p-1'>
-            <strong>198,000</strong>
+            <strong>88,000</strong>
             円(税込)
           </td>
           <td class='p-2 js-is-hidden'>
-            <strong>268,000</strong>
+            <strong>88,000</strong>
             円(税込)
           </td>
         </tr>
@@ -151,11 +151,11 @@
         <tr>
           <th>成婚料</th>
           <td class='p-1'>
-            <span>88,000</span>
+            <span>198,000</span>
             円(税込)
           </td>
           <td class='p-2 js-is-hidden'>
-            <span>88,000</span>
+            <span>268,000</span>
             円(税込)
           </td>
         </tr>
