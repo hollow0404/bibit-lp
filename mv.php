@@ -19,14 +19,14 @@
       </div>
       <div class="main-visual__down">
         <div class="main-visual__banners">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/bnr_no1_member.png" alt="会員数No.1">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/bnr_no1_seikon.png" alt="成婚数No.1">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/ai_matching.png" alt="AIマッチング">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/ibj_no1_member.png" alt="会員数No.1">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/ibj_no1_marriage.png" alt="成婚数No.1">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/ibj_no1_omiai.png" alt="お見合い数No.1">
         </div>
         <div class="main-visual__reference">
-          <span>当社は、登録会員数・成婚数 No.1の日本結婚相談所連盟（※）の加盟相談所です。
-          <br>※日本マーケティングリサーチ機構2022年1月調べ_IBJ日本結婚相談所連盟登録会員に関する調査<br>
-（成婚数：2021年実績、会員数：2021年12月末時点、大手結婚相談所・連盟を対象）</span>
+          <span>当社は、登録会員数、お見合い数、および成婚数No.1（※）のIBJの加盟相談所です。
+          <br>※日本マーケティングリサーチ機構調べ(成婚数/お見合い数:2024年累計、会員数:2024年12月末時点、2025年2月期_指定領域における市場調査)<br>
+          ※成婚数:IBJ連盟内での成婚者数</span>
         </div>
       </div>
     </div>
