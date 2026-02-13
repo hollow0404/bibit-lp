@@ -27,7 +27,7 @@
         <li>
           <img src="<?php echo get_template_directory_uri(); ?>/img/frame2.png" alt="フレーム" />
           業界
-          <strong>No.1</strong>
+          <strong>No.1*</strong>
           を誇る
           <span>約100,000人</span>
           の会員データベースから気になるお相手にアプローチできます。
@@ -68,6 +68,12 @@
             資格証明書
           </li>
         </ul>
+      </div>
+      <div class="main-visual__reference">
+          <br>
+          <span>当社は、登録会員数、お見合い数、および成婚数No.1（※）のIBJの加盟相談所です。
+          <br>※日本マーケティングリサーチ機構調べ(成婚数/お見合い数:2024年累計、会員数:2024年12月末時点、2025年2月期_指定領域における市場調査)<br>
+          ※成婚数:IBJ連盟内での成婚者数</span>
       </div>
     </div>
   </div>
